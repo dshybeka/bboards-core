@@ -1,0 +1,18 @@
+<plugin name='bcore' version='0.1' grailsVersion='2.4 &gt; *'>
+  <author>Your name</author>
+  <title>Bcore Plugin</title>
+  <description>Brief summary/description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/bcore</documentation>
+  <type>BcoreGrailsPlugin</type>
+  <resources>
+    <resource>org.bboards.domains.Address</resource>
+    <resource>org.bboards.domains.Board</resource>
+    <resource>org.bboards.domains.Owner</resource>
+    <resource>org.bboards.domains.Position</resource>
+    <resource>org.bboards.domains.Timetable</resource>
+    <resource>org.bboards.domains.enums.DisplayZoom</resource>
+    <resource>org.bboards.domains.enums.Distinct</resource>
+    <resource>org.bboards.domains.enums.Surface</resource>
+  </resources>
+</plugin>
